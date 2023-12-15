@@ -8008,6 +8008,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classname@npm:^0.0.0":
+  version: 0.0.0
+  resolution: "classname@npm:0.0.0"
+  checksum: 578ad3481fdc5a6762d3a9ed3e96c920293b7b83f0dd103d4040bcf4e175f1d70db90c619362cc1066eb6efaaca37dd43347189b3b6e0278c8031f1028f107e5
+  languageName: node
+  linkType: hard
+
 "clean-css@npm:^5.2.2":
   version: 5.3.3
   resolution: "clean-css@npm:5.3.3"
@@ -17419,6 +17426,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/core": 6.5.1
+    classname: ^0.0.0
   languageName: unknown
   linkType: soft
 
