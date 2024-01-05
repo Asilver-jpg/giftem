@@ -14,6 +14,7 @@ import NavbarLayout from './layouts/NavbarLayout/NavbarLayout'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/sign-up" page={SignUpPage} name="signUp" />
       <Route path="/login" page={LoginPage} name="login" />
       <Set wrap={NavbarLayout}>
         <Route path="/home" page={HomePage} name="home" />

@@ -2,7 +2,7 @@ import { Button, ButtonProps } from 'src/components/Atoms'
 
 import styles from './navBar.module.css'
 export interface NavBarProps {
-  navBarItemDetails: [ButtonProps]
+  navBarItemDetails: ButtonProps[]
 }
 
 export const NavBar = ({ navBarItemDetails }: NavBarProps) => {

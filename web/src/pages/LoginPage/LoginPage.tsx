@@ -1,5 +1,7 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+
+import { Button } from 'src/components'
+import { authenticate } from 'src/functions'
 
 const LoginPage = () => {
   return (
@@ -11,7 +13,7 @@ const LoginPage = () => {
         Find me in <code>./web/src/pages/LoginPage/LoginPage.tsx</code>
       </p>
       <p>
-        <Link to={routes.home()}>Login</Link>`
+        <Button text="Log In" type={'.fullButton'} onClick={authenticate} />
       </p>
     </>
   )

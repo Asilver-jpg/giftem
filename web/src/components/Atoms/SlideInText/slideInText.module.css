@@ -1,0 +1,21 @@
+.slideInText{
+    color: inherit;
+    font: inherit;
+}
+
+.fadeInOut{
+  animation: fade 6s ease infinite
+
+}
+
+.fadeOut{
+  animation: fade 2s cubic-bezier( 0.34, 0.93, 0.52, 0.89 ) reverse  ;
+}
+
+
+@keyframes fade{
+  0%{opacity:0}
+  20%{opacity:1}
+  80%{opacity:1}
+  100%{opacity:0}
+ }
